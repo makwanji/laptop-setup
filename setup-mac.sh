@@ -11,5 +11,11 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 cp ./mac/zshrc ~/.zshrc
 echo "###### setup end"
 
+# Install meetingbar
+brew install meetingbar
+
+# Install stats
+brew install --cask stats
+
 # Install k9s
 brew install k9s
