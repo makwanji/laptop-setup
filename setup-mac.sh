@@ -10,3 +10,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 #configure zsh
 cp ./mac/zshrc ~/.zshrc
 echo "###### setup end"
+
+# Install k9s
+brew install k9s
