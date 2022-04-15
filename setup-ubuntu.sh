@@ -15,4 +15,7 @@ sh ./ubuntu/install-system-monitor.sh
 # Install chrome
 sh ./ubuntu/install-chrome.sh
 
+# Install slack
+sh ./ubuntu/install-slack.sh
+
 echo "###### Ubuntu Laptop setup end"
