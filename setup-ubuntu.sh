@@ -18,4 +18,7 @@ sh ./ubuntu/install-chrome.sh
 # Install slack
 sh ./ubuntu/install-slack.sh
 
+# Install bitwarden
+sh ./ubuntu/install-bitwarden.sh
+
 echo "###### Ubuntu Laptop setup end"
