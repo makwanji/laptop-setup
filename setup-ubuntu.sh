@@ -12,4 +12,7 @@ sh ./ubuntu/install-docker.sh
 # Install system monitor
 sh ./ubuntu/install-system-monitor.sh
 
+# Install chrome
+sh ./ubuntu/install-chrome.sh
+
 echo "###### Ubuntu Laptop setup end"
