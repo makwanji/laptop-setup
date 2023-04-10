@@ -1,0 +1,4 @@
+---
+- hosts: servers
+  roles:
+    - role: gantsign.visual-studio-code
