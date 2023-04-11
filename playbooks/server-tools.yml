@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: yes
+  roles:
+    - role: server-tools
+  tags: server-tools

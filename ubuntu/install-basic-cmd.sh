@@ -2,4 +2,4 @@
 
 echo "Install screen"
 sudo apt update
-sudo apt install screen htop -y
+sudo apt install -y snapd screen htop

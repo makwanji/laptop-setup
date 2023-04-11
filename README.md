@@ -18,3 +18,5 @@ git clone https://github.com/makwanji/laptop-setup.git
 cd ~/code/laptop-setup
 sh setup-ubuntu.sh
 ```
+
+

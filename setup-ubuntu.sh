@@ -6,10 +6,6 @@ sh ./ubuntu/install-security-update.sh
 # Install VSCode
 sh ./ubuntu/install-vscode.sh
 
-<<<<<<< HEAD
-# Install VSCode
-sh ./ubuntu/install-docker.sh
-=======
 # Install Slack
 sh ubuntu/install-slack.sh
 
@@ -26,8 +22,6 @@ sh ubuntu/install-basic-cmd.sh
 # Install Stacer
 # Install VLC
 
->>>>>>> eabaee7 (Updated code)
-
 # Install system monitor
 sh ./ubuntu/install-system-monitor.sh
 
@@ -39,5 +33,8 @@ sh ./ubuntu/install-slack.sh
 
 # Install bitwarden
 sh ./ubuntu/install-bitwarden.sh
+
+# Install vlc
+sh ./ubuntu/install-vlc.sh
 
 echo "###### Ubuntu Laptop setup end"

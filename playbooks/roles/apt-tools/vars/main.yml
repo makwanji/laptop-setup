@@ -1,0 +1,10 @@
+---
+common_packages:
+  - curl
+  - apt-transport-https
+  - ca-certificates
+  - curl
+  - software-properties-common
+  - gnupg-agent
+  # - docker-ce
+  # - docker-ce-cli
