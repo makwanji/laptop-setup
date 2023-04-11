@@ -3,9 +3,6 @@
     update_cache: yes
     cache_valid_time: 3600
 
-- name: Setup Language package
-  shell: locale-gen en_US.UTF-8
-
 - name: Set timezone to Asia/Singapore
   community.general.timezone:
     name: Asia/Singapore
@@ -15,11 +12,6 @@
     name: "{{ item }}"
   with_items: "{{ common_packages }}"
 
-- name: Ensure group "somegroup" exists
-  ansible.builtin.group:
-    name: somegroup
-    state: present
-
 - name: Add the user 'james' with a bash shell, appending the group 'admins' and 'developers' to the user's groups
   ansible.builtin.user:
     name: jignesh
@@ -27,24 +19,3 @@
     groups: docker
     append: yes
 
-- name: Create portainer container
-  docker_container:
-    name: portainer
-    image: portainer/portainer-ce
-    state: started
-    recreate: yes
-    restart_policy: always
-    published_ports:
-      - "8000:8000"
-      - "9000:9000"
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - portainer_data:/data
-
-# FIREWALL SETUP
-- name: Open Portainer port
-  ufw:
-    state: enabled
-    rule: allow
-    port: "9000"
-    proto: tcp

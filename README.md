@@ -19,4 +19,5 @@ cd ~/code/laptop-setup
 sh setup-ubuntu.sh
 ```
 
-
+# Portainer URL
+http://192.168.2.176:9000/
