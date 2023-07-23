@@ -10,17 +10,7 @@ sh ./ubuntu/install-vscode.sh
 sh ubuntu/install-slack.sh
 
 # Install Screen
-sh ubuntu/install-basic-cmd.sh
-
-# https://www.fossmint.com/best-ubuntu-apps/
-# Install chrome
-# Install VLC
-# Install GIMP (Image Editing)
-# Install Shotcut (Video Editing)
-# Install Peek (Screen Recording)
-# Install Skype
-# Install Stacer
-# Install VLC
+sh ubuntu/install-basic-tools.sh
 
 # Install system monitor
 sh ./ubuntu/install-system-monitor.sh
@@ -36,5 +26,8 @@ sh ./ubuntu/install-bitwarden.sh
 
 # Install vlc
 sh ./ubuntu/install-vlc.sh
+
+# Install flutter-dev
+sh ./ubuntu/install-flutter-dev-tools.sh
 
 echo "###### Ubuntu Laptop setup end"
