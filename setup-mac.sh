@@ -2,7 +2,7 @@ echo "###### Mac setup start"
 
 echo ">>---> Setup and cofnigure zsh"
 # Install starship
-brew install starship
+brew install zsh
 brew install zsh-autosuggestions
 
 # Clone zsh-autosuggestions
@@ -23,5 +23,8 @@ brew install --cask stats
 echo ">>---> Install k9s"
 # Install k9s
 brew install k9s
+
+# ZSH profile
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 echo "###### setup end"

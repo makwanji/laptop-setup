@@ -21,3 +21,6 @@ sh setup-ubuntu.sh
 
 # Portainer URL
 http://192.168.2.176:9000/
+
+## Setup ZSH Theam.
+1. Install zsh and copy the `zsh/.p10k.zsh` to `~/.p10k.zsh` Location
