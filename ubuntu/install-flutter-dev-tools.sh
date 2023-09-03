@@ -1,9 +1,10 @@
 #/bin/bash
 
+echo "Installing postman........................"
 sudo snap install postman
-sudo snap install fast
 
 # Ref - https://docs.flutter.dev/get-started/install/linux
+echo "Installing flutter........................"
 sudo snap install flutter --classic
 # sudo snap install android-studio --classic
 

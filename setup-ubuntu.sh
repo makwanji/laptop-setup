@@ -24,7 +24,7 @@ sh ./ubuntu/install-chrome.sh
 # Install vlc
 sh ./ubuntu/install-vlc.sh
 
-# # Install flutter-dev
-# sh ./ubuntu/install-flutter-dev-tools.sh
+# Install flutter-dev
+sh ./ubuntu/install-flutter-dev-tools.sh
 
 echo "###### Ubuntu Laptop setup end"
