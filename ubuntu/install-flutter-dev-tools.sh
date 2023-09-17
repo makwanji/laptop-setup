@@ -3,11 +3,19 @@
 echo "Installing postman........................"
 sudo snap install postman
 
+# Install Java Development Kit (JDK)
+echo "Install Java Development Kit (JDK)........"
+sudo apt install -y openjdk-11-jdk
+
+echo "Install android-studio...................."
+sudo snap install android-studio --classic
+
+echo "Install androidsdk........................"
+sudo snap install androidsdk
+
 # Ref - https://docs.flutter.dev/get-started/install/linux
 echo "Installing flutter........................"
 sudo snap install flutter --classic
-sudo snap install android-studio --classic
-
 flutter --version
 flutter doctor
 

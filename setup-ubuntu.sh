@@ -1,5 +1,9 @@
 echo "###### Ubuntu Laptop setup start"
 
+# Pull latest code
+
+git stash && git pull
+
 #Install security update
 sh ./ubuntu/install-security-update.sh
 
